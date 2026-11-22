@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-22T13:38:21.812Z",
+  "checkedAt": "2026-11-22T13:59:39.213Z",
   "site": "https://iamzc0204.github.io/paper-writing-wiki/",
   "repository": "https://github.com/iamzc0204/paper-writing-wiki",
   "visibility": "PUBLIC",
-  "workflowRun": "https://github.com/iamzc0204/paper-writing-wiki/actions/runs/45028214494",
+  "workflowRun": "https://github.com/iamzc0204/paper-writing-wiki/actions/runs/45030253314",
   "htmlPages": 13,
-  "checkedUrls": 39,
+  "checkedUrls": 43,
   "status": "passed",
   "checks": [
     {
@@ -21,17 +21,17 @@
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/assets/style.css",
       "status": 200,
-      "bytes": 32506
+      "bytes": 34347
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/assets/workflow.svg",
       "status": 200,
-      "bytes": 5410
+      "bytes": 5416
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/assets/workflow@2x.png",
       "status": 200,
-      "bytes": 270832
+      "bytes": 271138
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/favicon.svg",
@@ -46,7 +46,7 @@
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/records/browser-check.json",
       "status": 200,
-      "bytes": 1110
+      "bytes": 2041
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/records/discussion.md",
@@ -61,7 +61,12 @@
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/records/retrieval.json",
       "status": 200,
-      "bytes": 32552
+      "bytes": 33874
+    },
+    {
+      "url": "https://iamzc0204.github.io/paper-writing-wiki/records/review-baseline.json",
+      "status": 200,
+      "bytes": 386
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/records/run-v1.json",
@@ -70,6 +75,11 @@
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/records/run-v2.json",
+      "status": 200,
+      "bytes": 2031
+    },
+    {
+      "url": "https://iamzc0204.github.io/paper-writing-wiki/records/run-v3.json",
       "status": 200,
       "bytes": 2031
     },
@@ -84,14 +94,24 @@
       "bytes": 1190
     },
     {
+      "url": "https://iamzc0204.github.io/paper-writing-wiki/records/slide-review.json",
+      "status": 200,
+      "bytes": 6927
+    },
+    {
+      "url": "https://iamzc0204.github.io/paper-writing-wiki/records/verification.json",
+      "status": 200,
+      "bytes": 1596
+    },
+    {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/slides/",
       "status": 200,
-      "bytes": 38623
+      "bytes": 39155
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/slides/index.html",
       "status": 200,
-      "bytes": 38623
+      "bytes": 39155
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/sources/",
@@ -106,102 +126,102 @@
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/",
       "status": 200,
-      "bytes": 11261
+      "bytes": 11853
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/abstract-paragraphs/",
       "status": 200,
-      "bytes": 4732
+      "bytes": 6221
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/abstract-paragraphs/index.html",
       "status": 200,
-      "bytes": 4732
+      "bytes": 6221
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/discussion/",
       "status": 200,
-      "bytes": 4966
+      "bytes": 5182
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/discussion/index.html",
       "status": 200,
-      "bytes": 4966
+      "bytes": 5182
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/index.html",
       "status": 200,
-      "bytes": 11261
+      "bytes": 11853
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/methods-experiments/",
       "status": 200,
-      "bytes": 4600
+      "bytes": 4912
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/methods-experiments/index.html",
       "status": 200,
-      "bytes": 4600
+      "bytes": 4912
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/paper-structure/",
       "status": 200,
-      "bytes": 4591
+      "bytes": 4831
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/paper-structure/index.html",
       "status": 200,
-      "bytes": 4591
+      "bytes": 4831
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/related-work/",
       "status": 200,
-      "bytes": 4580
+      "bytes": 4808
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/related-work/index.html",
       "status": 200,
-      "bytes": 4580
+      "bytes": 4808
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/research-question/",
       "status": 200,
-      "bytes": 4542
+      "bytes": 4944
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/research-question/index.html",
       "status": 200,
-      "bytes": 4542
+      "bytes": 4944
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/results-figures/",
       "status": 200,
-      "bytes": 4768
+      "bytes": 5035
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/results-figures/index.html",
       "status": 200,
-      "bytes": 4768
+      "bytes": 5035
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/revision-citations/",
       "status": 200,
-      "bytes": 4719
+      "bytes": 4944
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/wiki/revision-citations/index.html",
       "status": 200,
-      "bytes": 4719
+      "bytes": 4944
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/workflow/",
       "status": 200,
-      "bytes": 10835
+      "bytes": 28346
     },
     {
       "url": "https://iamzc0204.github.io/paper-writing-wiki/workflow/index.html",
       "status": 200,
-      "bytes": 10835
+      "bytes": 28346
     }
   ]
 }

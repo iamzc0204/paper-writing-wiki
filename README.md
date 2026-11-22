@@ -76,6 +76,6 @@ npm run verify
 
 網站以 GitHub Actions 編譯並發布至 GitHub Pages。程式與自行編寫的示例可在此儲存庫檢閱；教材引用及改寫依各來源授權，MIT CommKit 部分標示 CC BY-NC 4.0，詳見網站來源頁。
 
-[公開網址檢查紀錄](records/publication.json)：13 個 HTML 頁面及其資源，共 39 個網址全部回應 HTTP 200。
+[公開網址檢查紀錄](records/publication.json)：13 個 HTML 頁面及其資源，共 43 個網址全部回應 HTTP 200。
 
-![教學 HTML 簡報成果](docs/slides-preview.jpg)
+![Wiki 學習目標與教學成果](docs/wiki-preview.jpg)

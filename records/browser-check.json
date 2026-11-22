@@ -4,7 +4,19 @@
   "localUrl": "http://127.0.0.1:5175/",
   "publishedUrl": "https://iamzc0204.github.io/paper-writing-wiki/",
   "status": "passed",
-  "checks": [
+  "optimizationReview": {
+    "checkedAt": "2026-11-22T13:58:13.989Z",
+    "version": "v3",
+    "desktopSlides": "18/18 內容位於頁尾前，無水平溢出",
+    "mobileViewport": "390x844",
+    "mobileSlides": "18/18 無水平溢出",
+    "wiki": "四項學習目標、完整摘要與三項完成標準可讀取",
+    "workflow": "37 筆主張全文對照可讀取；六項檢查實驗連結可見，手機整頁無水平溢出",
+    "sourcePanel": "第14頁 C24 已指向 S09 E1/E2/E5",
+    "publishedSite": "已實際確認公開版顯示37筆對應、v3紀錄及6/6檢查實驗；Wiki顯示四項學習目標。"
+  },
+  "initialVersion": "v2",
+  "initialChecks": [
     {
       "item": "桌面 18 頁內容範圍",
       "result": "18/18 通過；內容均位於頁尾之前，頁面沒有水平溢出"
@@ -37,15 +49,5 @@
       "item": "公開 GitHub Pages",
       "result": "首頁、簡報下一頁與目錄可操作；第 2 頁來源面板可連至 Wiki C07 主張；流程頁顯示 9 份來源、8 頁 Wiki、18 次查詢與 36 筆主張對應"
     }
-  ],
-  "optimizationReview": {
-    "checkedAt": "2026-11-22T13:58:13.989Z",
-    "version": "v3",
-    "desktopSlides": "18/18 內容位於頁尾前，無水平溢出",
-    "mobileViewport": "390x844",
-    "mobileSlides": "18/18 無水平溢出",
-    "wiki": "四項學習目標、完整摘要與三項完成標準可讀取",
-    "workflow": "37 筆主張全文對照可讀取；六項檢查實驗連結可見，手機整頁無水平溢出",
-    "sourcePanel": "第14頁 C24 已指向 S09 E1/E2/E5"
-  }
+  ]
 }
