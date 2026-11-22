@@ -8,6 +8,7 @@
     "ingest": "node scripts/ingest.mjs",
     "query": "node scripts/query.mjs",
     "check": "node scripts/check.mjs",
+    "verify": "node scripts/verify.mjs",
     "build": "node scripts/build.mjs",
     "start": "node scripts/serve.mjs",
     "run": "node scripts/run.mjs"

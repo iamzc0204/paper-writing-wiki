@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-11-22T13:48:15.909Z",
+  "type": "controlled-check-experiment",
+  "description": "刻意只替換查詢包中的一則主張文字，保留其編號；測試結束後已還原原檔。這是檢查能力實驗，不是自然發生的下載或模型失敗。",
+  "baselineErrors": 0,
+  "mutatedErrors": 0,
+  "result": "missed-stale-hit",
+  "originalRestored": true
+}

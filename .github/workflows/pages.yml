@@ -24,6 +24,8 @@ jobs:
           node-version: '22'
       - name: Verify knowledge and slide evidence
         run: npm run check
+      - name: Verify six content-check cases
+        run: npm run verify
       - name: Build static pages and verify internal links
         run: npm run build
       - uses: actions/configure-pages@v5

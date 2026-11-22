@@ -3,13 +3,14 @@ import {createHash} from 'node:crypto';
 import {queryWiki} from './query.mjs';
 import {checkScope,checkContent} from './check.mjs';
 
-const version=process.argv[2]||'v2';
-if(!['v1','v2'].includes(version))throw new Error('Use v1 or v2');
+const version=process.argv[2]||'v3';
+if(!['v1','v2','v3'].includes(version))throw new Error('Use v1, v2 or v3');
+if(version!=='v3'&&await readFile(`records/run-${version}.json`).then(()=>true,()=>false))throw new Error('v1、v2 為已保存的歷史紀錄；請使用 v3 執行目前內容。');
 const run={id:`${version}-${new Date().toISOString().replace(/[:.]/g,'-')}`,version,startedAt:new Date().toISOString(),steps:[],status:'running'};
 async function step(node,work){const startedAt=new Date().toISOString();const output=await work();run.steps.push({node,startedAt,finishedAt:new Date().toISOString(),...output});return output;}
 await step('ingest',async()=>{const record=JSON.parse(await readFile('records/ingest.json','utf8'));return {status:'passed',action:'核對本次已取得的來源紀錄，不重做網路請求',success:record.sources.filter(s=>s.status===200&&s.anchorFound).length};});
 let blocked=false;
-if(version==='v2'){const issues=await checkScope();await step('source-scope',async()=>({status:issues.length?'blocked':'passed',issues}));blocked=issues.length>0;}
+if(version!=='v1'){const issues=await checkScope();await step('source-scope',async()=>({status:issues.length?'blocked':'passed',issues}));blocked=issues.length>0;}
 if(!blocked){
  await step('wiki-index',async()=>{const raw=await readFile('content/knowledge.json','utf8');const kb=JSON.parse(raw);return {status:'passed',pages:kb.pages.length,claims:kb.claims.length,sha256:createHash('sha256').update(raw).digest('hex')};});
  await step('wiki-query',async()=>{const packs=await queryWiki();await writeFile(`records/retrieval-${version}.json`,JSON.stringify(packs,null,2));return {status:'passed',queries:packs.queries.length};});

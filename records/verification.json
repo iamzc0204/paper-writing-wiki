@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-11-22T13:55:28.234Z",
+  "description": "以複製的記憶體測試資料驗證檢查能力；不改動 Wiki、投影片或歷史執行紀錄。",
+  "passed": 6,
+  "total": 6,
+  "cases": [
+    {
+      "name": "目前內容完整通過",
+      "type": "current-content",
+      "expected": "passed",
+      "observedCodes": [],
+      "passed": true
+    },
+    {
+      "name": "相同編號但查詢包文字被改動",
+      "type": "controlled-input-change",
+      "expected": "HIT_STALE",
+      "observedCodes": [
+        "HIT_STALE"
+      ],
+      "passed": true
+    },
+    {
+      "name": "Wiki 已修改而查詢包未重建",
+      "type": "controlled-input-change",
+      "expected": "STALE_RETRIEVAL",
+      "observedCodes": [
+        "STALE_RETRIEVAL",
+        "HIT_STALE",
+        "STALE_REVIEW"
+      ],
+      "passed": true
+    },
+    {
+      "name": "投影片引用未查得的主張",
+      "type": "controlled-input-change",
+      "expected": "NOT_RETRIEVED",
+      "observedCodes": [
+        "NOT_RETRIEVED",
+        "REVIEW_PENDING",
+        "STALE_REVIEW"
+      ],
+      "passed": true
+    },
+    {
+      "name": "投影片已改寫而語意審核未更新",
+      "type": "controlled-input-change",
+      "expected": "STALE_REVIEW",
+      "observedCodes": [
+        "STALE_REVIEW"
+      ],
+      "passed": true
+    },
+    {
+      "name": "來源範圍尚未判讀即被前置關卡攔下",
+      "type": "controlled-input-change",
+      "expected": "SCOPE_PENDING",
+      "observedCodes": [
+        "SCOPE_PENDING"
+      ],
+      "passed": true
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 590" role="img" aria-labelledby="title desc">
-<title id="title">Wiki 到教學簡報的 v2 流程</title><desc id="desc">討論範圍後取得資料，先檢查來源範圍，再編譯 Wiki。查詢 Wiki 後撰寫分鏡並核對主張，通過才產生 HTML 與檢查頁面。來源不清回到原文，缺少依據回到查詢，版面問題回到排版。</desc>
+<title id="title">Wiki 到教學簡報的 v3 流程</title><desc id="desc">討論範圍後取得資料，先檢查來源範圍，再編譯 Wiki。查詢 Wiki 後撰寫分鏡並核對主張，通過才產生 HTML 與檢查頁面。來源不清回到原文，缺少依據回到查詢，版面問題回到排版。</desc>
 <defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#203647" stroke-width=".5"/></pattern><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0 0 9 4 0 8Z" fill="#7b9da7"/></marker><marker id="return" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0 0 9 4 0 8Z" fill="#e0a578"/></marker></defs>
 <style>text{font-family:'Noto Sans TC','Microsoft JhengHei',sans-serif;fill:#e8eef0}.name{font-size:17px;font-weight:600}.sub{font-size:12px;fill:#9bb4bf}.label{font-size:12px;fill:#a5c5cc}.loop{font-size:12px;fill:#e0a578}.num{font-size:11px;fill:#77bbbd}.box{fill:#10283b;stroke:#608c9c;stroke-width:1.3}.gate{fill:#26322e;stroke:#e0a578;stroke-width:1.5}.flow{fill:none;stroke:#7b9da7;stroke-width:1.5;marker-end:url(#arrow)}.back{fill:none;stroke:#e0a578;stroke-width:1.4;stroke-dasharray:6 5;marker-end:url(#return)}</style>
 <path d="M0 0H1140V590H0Z" fill="#0f2232"/><path d="M0 0H1140V590H0Z" fill="url(#grid)"/>
-<text x="36" y="43" font-size="22" font-weight="600">先確認來源適用範圍，再讓內容進入知識庫。</text><text x="37" y="71" class="sub">v2 · 繁體中文理工／資訊論文寫作 · LLM 編輯與程式檢查共同完成</text>
+<text x="36" y="43" font-size="22" font-weight="600">先確認來源適用範圍，再讓內容進入知識庫。</text><text x="37" y="71" class="sub">v3 · 繁體中文理工／資訊論文寫作 · LLM 編輯與程式檢查共同完成</text>
 <path class="flow" d="M230 146H294"/><path class="flow" d="M470 146H534"/><path class="flow" d="M710 146H774"/><path class="flow" d="M950 146H1007V270H950"/>
 <path class="flow" d="M774 300H710"/><path class="flow" d="M534 300H470"/><path class="flow" d="M294 300H230"/><path class="flow" d="M142 340V418H294"/>
 <path class="back" d="M382 190V227H142V190"/><text x="201" y="214" class="loop">不明確：重讀原文與判讀</text>
@@ -13,12 +13,12 @@
 <polygon class="gate" points="382,94 470,146 382,198 294,146"/><text x="382" y="137" class="name" text-anchor="middle">來源範圍</text><text x="382" y="160" class="sub" text-anchor="middle">已完成判讀？</text>
 <text x="492" y="135" class="label">是</text>
 <rect class="box" x="534" y="106" width="176" height="84" rx="7"/><text x="622" y="125" class="num" text-anchor="middle">03 · LLM + 程式</text><text x="622" y="151" class="name" text-anchor="middle">編譯 Wiki</text><text x="622" y="174" class="sub" text-anchor="middle">8 頁／25 個來源主張</text>
-<rect class="box" x="774" y="106" width="176" height="84" rx="7"/><text x="862" y="125" class="num" text-anchor="middle">04 · 程式</text><text x="862" y="151" class="name" text-anchor="middle">查詢 Wiki</text><text x="862" y="174" class="sub" text-anchor="middle">主題篩選與關鍵字排序</text>
+<rect class="box" x="774" y="106" width="176" height="84" rx="7"/><text x="862" y="125" class="num" text-anchor="middle">04 · 程式</text><text x="862" y="151" class="name" text-anchor="middle">查詢 Wiki</text><text x="862" y="174" class="sub" text-anchor="middle">主題查詢與版本對照</text>
 <rect class="box" x="774" y="260" width="176" height="80" rx="7"/><text x="862" y="282" class="num" text-anchor="middle">05 · LLM</text><text x="862" y="307" class="name" text-anchor="middle">編寫教學分鏡</text><text x="862" y="329" class="sub" text-anchor="middle">只使用查詢包內的依據</text>
-<polygon class="gate" points="622,248 710,300 622,352 534,300"/><text x="622" y="291" class="name" text-anchor="middle">主張核對</text><text x="622" y="314" class="sub" text-anchor="middle">依據與範圍相符？</text>
+<polygon class="gate" points="622,248 710,300 622,352 534,300"/><text x="622" y="291" class="name" text-anchor="middle">主張核對</text><text x="622" y="314" class="sub" text-anchor="middle">內容與語意相符？</text>
 <text x="492" y="289" class="label">是</text>
 <rect class="box" x="294" y="260" width="176" height="80" rx="7"/><text x="382" y="282" class="num" text-anchor="middle">07 · 程式</text><text x="382" y="307" class="name" text-anchor="middle">產生 HTML</text><text x="382" y="329" class="sub" text-anchor="middle">Wiki、簡報、來源與紀錄</text>
 <rect class="box" x="54" y="260" width="176" height="80" rx="7"/><text x="142" y="282" class="num" text-anchor="middle">08 · 檢查</text><text x="142" y="307" class="name" text-anchor="middle">檢查頁面</text><text x="142" y="329" class="sub" text-anchor="middle">連結、導覽與畫面</text>
 <rect x="294" y="390" width="280" height="57" rx="28" fill="#143d3e" stroke="#77bbbd"/><text x="434" y="425" class="name" text-anchor="middle">通過後發布與保存紀錄</text>
-<path d="M36 488H1104" stroke="#31505e"/><text x="37" y="520" class="sub">LLM：原文判讀、知識整理、教學改寫</text><text x="37" y="548" class="sub">程式：取得、索引、編號核對、HTML 產出與紀錄</text><path class="back" d="M674 520H730"/><text x="749" y="525" class="loop">虛線：返回需要修正的節點</text><text x="674" y="551" class="sub">v1 的來源範圍檢查原在最後；v2 已提前。</text>
+<path d="M36 488H1104" stroke="#31505e"/><text x="37" y="520" class="sub">LLM：原文判讀、知識整理、教學改寫</text><text x="37" y="548" class="sub">程式：取得、索引、編號核對、HTML 產出與紀錄</text><path class="back" d="M674 520H730"/><text x="749" y="525" class="loop">虛線：返回需要修正的節點</text><text x="674" y="551" class="sub">v2 提前來源範圍檢查；v3 加入內容與語意核對。</text>
 </svg>

@@ -1,6 +1,8 @@
 {
-  "createdAt": "2026-11-22T13:25:47.928Z",
-  "knowledgeSha256": "56bf73f65adceb0ad0ac7506dfc30e8ec25b44239f30f68dbd96130df6561131",
+  "createdAt": "2026-11-22T13:55:28.739Z",
+  "hashFormat": "json-v1",
+  "knowledgeSha256": "fd5f52226e1f03de56b1a8ef871c3de96a2ec1eb69b8aa2cac5788323fba7663",
+  "queriesSha256": "4f84fc255c9833bce93fab86efaa58f4eb3c07011f4082d772ae2ba2204841a3",
   "method": "先以 Wiki 主題頁縮小範圍，再以中英關鍵字與中文字雙連詞匹配排序；每次最多8個主張。",
   "queries": [
     {
@@ -251,6 +253,7 @@
       "id": "Q06",
       "query": "資訊論文 章節 Experiments Evaluation 理論",
       "pages": [
+        "W01",
         "W03"
       ],
       "hits": [
@@ -286,6 +289,39 @@
           "pageId": "W03",
           "pageSlug": "paper-structure",
           "score": 4
+        },
+        {
+          "id": "C25",
+          "text": "前言的技術細節應足以理解問題與貢獻，更多細節可留給後續章節。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Give just enough technical detail",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 1
+        },
+        {
+          "id": "C01",
+          "text": "前言需要交代問題、重要性、解法與貢獻，讓讀者知道這篇研究完成了什麼。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Criteria for Success",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 0
+        },
+        {
+          "id": "C02",
+          "text": "研究缺口來自既有工作與本研究之間的具體差距，動機與貢獻應能對上。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Develop a story",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 0
         }
       ]
     },
@@ -685,11 +721,11 @@
         },
         {
           "id": "C24",
-          "text": "段落需要主題句與連接比較關係的表達，幫助讀者看懂文獻之間的論證。",
+          "text": "每段以一項核心任務為中心，各句共同支持主旨，句間銜接需符合實際論理關係。",
           "sources": [
-            "S07"
+            "S09"
           ],
-          "locator": "What are the parts of a lit review?",
+          "locator": "E1 主旨明確性；E2 段落統一性；E5 句間連貫與銜接",
           "pageId": "W07",
           "pageSlug": "abstract-paragraphs",
           "score": 1
@@ -703,17 +739,6 @@
         "W07"
       ],
       "hits": [
-        {
-          "id": "C24",
-          "text": "段落需要主題句與連接比較關係的表達，幫助讀者看懂文獻之間的論證。",
-          "sources": [
-            "S07"
-          ],
-          "locator": "What are the parts of a lit review?",
-          "pageId": "W07",
-          "pageSlug": "abstract-paragraphs",
-          "score": 5
-        },
         {
           "id": "C18",
           "text": "摘要可依一般背景、具體背景、缺口、主要工作、方法與結果、意義這六種功能組織。",
@@ -733,6 +758,17 @@
           ],
           "locator": "Analyze Your Audience; Avoid jargon; Be concise",
           "scope": "六種功能是組織參考，不是固定句數或統一字數規定。",
+          "pageId": "W07",
+          "pageSlug": "abstract-paragraphs",
+          "score": 1
+        },
+        {
+          "id": "C24",
+          "text": "每段以一項核心任務為中心，各句共同支持主旨，句間銜接需符合實際論理關係。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "E1 主旨明確性；E2 段落統一性；E5 句間連貫與銜接",
           "pageId": "W07",
           "pageSlug": "abstract-paragraphs",
           "score": 1
@@ -934,11 +970,11 @@
         },
         {
           "id": "C24",
-          "text": "段落需要主題句與連接比較關係的表達，幫助讀者看懂文獻之間的論證。",
+          "text": "每段以一項核心任務為中心，各句共同支持主旨，句間銜接需符合實際論理關係。",
           "sources": [
-            "S07"
+            "S09"
           ],
-          "locator": "What are the parts of a lit review?",
+          "locator": "E1 主旨明確性；E2 段落統一性；E5 句間連貫與銜接",
           "pageId": "W07",
           "pageSlug": "abstract-paragraphs",
           "score": 1

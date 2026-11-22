@@ -26,6 +26,12 @@ Introduction 交代問題與貢獻；Methods 解釋做法；Results 呈現發現
 
 為自己的研究列出章節，每一節用一個問句描述讀者讀完後應得到的答案。
 
+完成標準：
+
+- 每節都有清楚的讀者問題與章節任務。
+- 研究問題、方法、結果與結論能相互對照。
+- 章節名稱符合目標領域或投稿場合。
+
 ## 相關頁面
 
 [研究問題與貢獻](research-question.md) · [方法與可重做的實驗](methods-experiments.md) · [結果段與研究圖表](results-figures.md) · [討論與推論範圍](discussion.md)

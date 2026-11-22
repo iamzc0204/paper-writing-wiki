@@ -1,0 +1,265 @@
+{
+  "reviewedAt": "2026-11-22T13:52:33.213Z",
+  "method": "本次對話中的 LLM 讀回來源與 Wiki 主張，逐頁核對教學結論、延伸應用、數字及引用範圍；程式只確認這份判讀對應目前內容版本。",
+  "knowledgeSha256": "fd5f52226e1f03de56b1a8ef871c3de96a2ec1eb69b8aa2cac5788323fba7663",
+  "slidesSha256": "51630014f684612b9c638b9f9ff04ab140167a36b677d816e74667a68193e56d",
+  "improvements": [
+    {
+      "item": "研究問題與數據判讀",
+      "change": "明定事前0.5個百分點門檻，以相同條件下下降0.2個百分點的假設結果回答問題。"
+    },
+    {
+      "item": "來源支持關係",
+      "change": "第4頁改用C01/C02；第6頁補C01；C24改引S09 E1/E2/E5的一般段落原則。"
+    },
+    {
+      "item": "初學者練習",
+      "change": "補四項學習目標、八頁各三項完成標準，以及完整摘要與句子功能對照。"
+    }
+  ],
+  "slides": [
+    {
+      "slideId": "L01",
+      "query": "Q01",
+      "claims": [
+        "C01",
+        "C25"
+      ],
+      "sourceIds": [
+        "S01"
+      ],
+      "status": "verified",
+      "rationale": "課程導入以 C01、C25 的問題、貢獻與讀者所需資訊為主線；學習目標是本 Wiki 設計的教學安排。"
+    },
+    {
+      "slideId": "L02",
+      "query": "Q02",
+      "claims": [
+        "C07",
+        "C08"
+      ],
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "status": "verified",
+      "rationale": "C07、C08 支持資訊論文的章節差異；IMRaD 四問是本 Wiki 用來介紹章節功能的整理。"
+    },
+    {
+      "slideId": "L03",
+      "query": "Q03",
+      "claims": [
+        "C01",
+        "C02"
+      ],
+      "sourceIds": [
+        "S01"
+      ],
+      "status": "verified",
+      "rationale": "依 C01、C02 把大主題收斂成可回答的問題；0.5個百分點為案例事前門檻，與第9、11頁數據一致。"
+    },
+    {
+      "slideId": "L04",
+      "query": "Q04",
+      "claims": [
+        "C01",
+        "C02"
+      ],
+      "sourceIds": [
+        "S01"
+      ],
+      "status": "verified",
+      "rationale": "改以 C01 的研究貢獻及 C02 的缺口支持對照；壓縮案例為自行編寫的應用。"
+    },
+    {
+      "slideId": "L05",
+      "query": "Q05",
+      "claims": [
+        "C03",
+        "C04"
+      ],
+      "sourceIds": [
+        "S07"
+      ],
+      "status": "verified",
+      "rationale": "C03、C04 支持綜合及主題／方法組織；A、B明示為示例，沒有冒充真實文獻。"
+    },
+    {
+      "slideId": "L06",
+      "query": "Q06",
+      "claims": [
+        "C01",
+        "C07",
+        "C08"
+      ],
+      "sourceIds": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "status": "verified",
+      "rationale": "補入 C01 支持前言任務，C07、C08 支持方法、實驗與評估配置；章節表是依此整理的示例。"
+    },
+    {
+      "slideId": "L07",
+      "query": "Q07",
+      "claims": [
+        "C06",
+        "C10"
+      ],
+      "sourceIds": [
+        "S02"
+      ],
+      "status": "verified",
+      "rationale": "C06 支持技術描述與直覺，C10 支持選擇理由；輸入、處理、輸出是教學用流程拆解。"
+    },
+    {
+      "slideId": "L08",
+      "query": "Q08",
+      "claims": [
+        "C09",
+        "C11"
+      ],
+      "sourceIds": [
+        "S02",
+        "S03"
+      ],
+      "status": "verified",
+      "rationale": "C09、C11 支持足以重做的細節與評估條件；四類清單及重複量測是教學延伸。"
+    },
+    {
+      "slideId": "L09",
+      "query": "Q09",
+      "claims": [
+        "C11",
+        "C21"
+      ],
+      "sourceIds": [
+        "S03",
+        "S09"
+      ],
+      "status": "verified",
+      "rationale": "C11、C21 支持比較條件與主張範圍；91.2/91.0%、42/28 ms、96/64 MB皆為教學假設。0.2個百分點在事前0.5門檻內。"
+    },
+    {
+      "slideId": "L10",
+      "query": "Q10",
+      "claims": [
+        "C13",
+        "C14"
+      ],
+      "sourceIds": [
+        "S05"
+      ],
+      "status": "verified",
+      "rationale": "C13、C14 支持單一訊息與合適圖型；長條圖42、28 ms與第9頁一致，沒有加入來源之外的研究結果。"
+    },
+    {
+      "slideId": "L11",
+      "query": "Q11",
+      "claims": [
+        "C12",
+        "C15"
+      ],
+      "sourceIds": [
+        "S03"
+      ],
+      "status": "verified",
+      "rationale": "C12、C15 支持用主要發現安排結果；(42-28)/42約33.3%，91.2-91.0為0.2個百分點，量與單位一致。"
+    },
+    {
+      "slideId": "L12",
+      "query": "Q12",
+      "claims": [
+        "C16",
+        "C17",
+        "C22"
+      ],
+      "sourceIds": [
+        "S06",
+        "S09"
+      ],
+      "status": "verified",
+      "rationale": "C16、C17、C22 支持連回問題、說明範圍及區分觀察與解釋；機制以可能解釋呈現。"
+    },
+    {
+      "slideId": "L13",
+      "query": "Q13",
+      "claims": [
+        "C18",
+        "C19"
+      ],
+      "sourceIds": [
+        "S04"
+      ],
+      "status": "verified",
+      "rationale": "C18、C19 支持摘要寫作功能及讀者需求；六功能不等於六句。Wiki補上完整假設摘要，數字與研究問題一致。"
+    },
+    {
+      "slideId": "L14",
+      "query": "Q14",
+      "claims": [
+        "C24"
+      ],
+      "sourceIds": [
+        "S09"
+      ],
+      "status": "verified",
+      "rationale": "C24已改回 S09 E1、E2、E5，直接支持一般段落任務、統一性與銜接；英文示例與第9頁及完整摘要使用相同數據。"
+    },
+    {
+      "slideId": "L15",
+      "query": "Q15",
+      "claims": [
+        "C05",
+        "C20"
+      ],
+      "sourceIds": [
+        "S08"
+      ],
+      "status": "verified",
+      "rationale": "C05、C20 支持原文核對、轉引與觀點區分；此頁沒有把 S08 的文獻類型評價套成資訊領域通則。"
+    },
+    {
+      "slideId": "L16",
+      "query": "Q16",
+      "claims": [
+        "C21",
+        "C23"
+      ],
+      "sourceIds": [
+        "S09"
+      ],
+      "status": "verified",
+      "rationale": "C21、C23 支持先核對研究主張並回查全文；四層修訂順序為本 Wiki 的操作整理。"
+    },
+    {
+      "slideId": "L17",
+      "query": "Q17",
+      "claims": [
+        "C19",
+        "C21"
+      ],
+      "sourceIds": [
+        "S04",
+        "S09"
+      ],
+      "status": "verified",
+      "rationale": "兩題的正確選項分別依 C21、C19；回饋直接解釋證據範圍及投稿規定。"
+    },
+    {
+      "slideId": "L18",
+      "query": "Q18",
+      "claims": [
+        "C01",
+        "C23"
+      ],
+      "sourceIds": [
+        "S01",
+        "S09"
+      ],
+      "status": "verified",
+      "rationale": "依 C01、C23 設計20分鐘課後產出；四項論文骨架及完成標準與前面教學和 Wiki 練習一致。"
+    }
+  ]
+}

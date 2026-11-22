@@ -1,41 +1,540 @@
 {
-  "title":"理工／資訊技術論文寫作 Wiki",
-  "audience":"第一次撰寫理工或資訊技術論文的研究生",
-  "claims":[
-    {"id":"C01","text":"前言需要交代問題、重要性、解法與貢獻，讓讀者知道這篇研究完成了什麼。","sources":["S01"],"locator":"Criteria for Success"},
-    {"id":"C02","text":"研究缺口來自既有工作與本研究之間的具體差距，動機與貢獻應能對上。","sources":["S01"],"locator":"Develop a story"},
-    {"id":"C03","text":"文獻回顧需要把研究放在同一段討論中，呈現彼此的連結，而非逐篇摘要的堆疊。","sources":["S07"],"locator":"What are some strategies or tips I can use while writing my lit review?"},
-    {"id":"C04","text":"文獻回顧可以依主題或方法組織，選擇能服務研究問題的比較順序。","sources":["S07"],"locator":"How should I organize my lit review?"},
-    {"id":"C05","text":"引用原始研究前應閱讀並確認原意；只讀到二手轉述時，要清楚交代轉引關係。","sources":["S08"],"locator":"粗糙地引用二手文獻；誤解了文獻的原意"},
-    {"id":"C06","text":"資訊論文的方法節需要說明演算法、系統或模型，也要建立直覺並解釋技術選擇。","sources":["S02"],"locator":"The CS Methods Section"},
-    {"id":"C07","text":"資訊論文可將實驗設定另列 Experiments，或放在 Results 開頭；章節配置依領域慣例調整。","sources":["S02"],"locator":"The CS Methods Section"},
-    {"id":"C08","text":"Results 在系統或演算法論文可稱 Evaluation 或 Experiments；理論工作則可能呈現定理與證明。","sources":["S03"],"locator":"Structure and Organization"},
-    {"id":"C09","text":"方法描述應保留會影響結論的必要細節，讓讀者重做或確認結果；標準方法的改動需明說。","sources":["S02"],"locator":"Provide minimal, essential detail"},
-    {"id":"C10","text":"方法節除了描述如何做，也應解釋為何該方法適合回答研究問題。","sources":["S02"],"locator":"State the reasons for choosing your methodology"},
-    {"id":"C11","text":"系統或演算法的評估應交代驗證設定、資料與比較方法，讓性能主張有可判讀的依據。","sources":["S03"],"locator":"Content"},
-    {"id":"C12","text":"可先按主要發現整理圖表，再以圖表與結論規劃結果段落的順序。","sources":["S03"],"locator":"Create a logical narrative, organized into subsections"},
-    {"id":"C13","text":"一張研究圖應有清楚的主要訊息，以及直接支持該訊息的證據。","sources":["S05"],"locator":"Criteria for Success"},
-    {"id":"C14","text":"圖的形式應配合要回答的問題，呈現分布、趨勢或關係時需要不同設計。","sources":["S05"],"locator":"Choose figure designs that best communicate your message"},
-    {"id":"C15","text":"結果段應清楚呈現發現與直接後果，延伸推測與較廣的解釋放在討論。","sources":["S03"],"locator":"Identify Your Purpose"},
-    {"id":"C16","text":"討論需要回到前言的大問題，說明結果如何與既有研究相互支持或產生差異。","sources":["S06"],"locator":"Criteria for Success; Relate your results to existing results"},
-    {"id":"C17","text":"討論應說明研究範圍仍留下哪些問題，並把後續工作連回這些問題。","sources":["S06"],"locator":"Tell how your study’s limitations leave open the big questions"},
-    {"id":"C18","text":"摘要可依一般背景、具體背景、缺口、主要工作、方法與結果、意義這六種功能組織。","sources":["S04"],"locator":"Criteria for Success"},
-    {"id":"C19","text":"摘要應依讀者背景控制術語，說明工作的重要訊息；篇幅依目標期刊或會議規範。","sources":["S04"],"locator":"Analyze Your Audience; Avoid jargon; Be concise","scope":"六種功能是組織參考，不是固定句數或統一字數規定。"},
-    {"id":"C20","text":"引用時要保留文獻原意，並讓讀者分辨他人的觀點與本文自己的評論。","sources":["S08"],"locator":"誤解了文獻的原意；不同觀點的混淆"},
-    {"id":"C21","text":"研究主張需和實際測量、研究設計與資料支持的範圍相稱。","sources":["S09"],"locator":"A2 主張與證據相稱；A4 推論範圍與層次"},
-    {"id":"C22","text":"觀察結果、機制解釋與實務建議應分開，未測量的機制只能作為待檢驗解釋。","sources":["S09"],"locator":"A7 發現與解釋的區分"},
-    {"id":"C23","text":"修訂後應回查摘要、圖表與結論是否仍有同類問題，並留下修改理由。","sources":["S09"],"locator":"修訂後回查全文"},
-    {"id":"C24","text":"段落需要主題句與連接比較關係的表達，幫助讀者看懂文獻之間的論證。","sources":["S07"],"locator":"What are the parts of a lit review?"},
-    {"id":"C25","text":"前言的技術細節應足以理解問題與貢獻，更多細節可留給後續章節。","sources":["S01"],"locator":"Give just enough technical detail"}
+  "title": "理工／資訊技術論文寫作 Wiki",
+  "audience": "第一次撰寫理工或資訊技術論文的研究生",
+  "claims": [
+    {
+      "id": "C01",
+      "text": "前言需要交代問題、重要性、解法與貢獻，讓讀者知道這篇研究完成了什麼。",
+      "sources": [
+        "S01"
+      ],
+      "locator": "Criteria for Success"
+    },
+    {
+      "id": "C02",
+      "text": "研究缺口來自既有工作與本研究之間的具體差距，動機與貢獻應能對上。",
+      "sources": [
+        "S01"
+      ],
+      "locator": "Develop a story"
+    },
+    {
+      "id": "C03",
+      "text": "文獻回顧需要把研究放在同一段討論中，呈現彼此的連結，而非逐篇摘要的堆疊。",
+      "sources": [
+        "S07"
+      ],
+      "locator": "What are some strategies or tips I can use while writing my lit review?"
+    },
+    {
+      "id": "C04",
+      "text": "文獻回顧可以依主題或方法組織，選擇能服務研究問題的比較順序。",
+      "sources": [
+        "S07"
+      ],
+      "locator": "How should I organize my lit review?"
+    },
+    {
+      "id": "C05",
+      "text": "引用原始研究前應閱讀並確認原意；只讀到二手轉述時，要清楚交代轉引關係。",
+      "sources": [
+        "S08"
+      ],
+      "locator": "粗糙地引用二手文獻；誤解了文獻的原意"
+    },
+    {
+      "id": "C06",
+      "text": "資訊論文的方法節需要說明演算法、系統或模型，也要建立直覺並解釋技術選擇。",
+      "sources": [
+        "S02"
+      ],
+      "locator": "The CS Methods Section"
+    },
+    {
+      "id": "C07",
+      "text": "資訊論文可將實驗設定另列 Experiments，或放在 Results 開頭；章節配置依領域慣例調整。",
+      "sources": [
+        "S02"
+      ],
+      "locator": "The CS Methods Section"
+    },
+    {
+      "id": "C08",
+      "text": "Results 在系統或演算法論文可稱 Evaluation 或 Experiments；理論工作則可能呈現定理與證明。",
+      "sources": [
+        "S03"
+      ],
+      "locator": "Structure and Organization"
+    },
+    {
+      "id": "C09",
+      "text": "方法描述應保留會影響結論的必要細節，讓讀者重做或確認結果；標準方法的改動需明說。",
+      "sources": [
+        "S02"
+      ],
+      "locator": "Provide minimal, essential detail"
+    },
+    {
+      "id": "C10",
+      "text": "方法節除了描述如何做，也應解釋為何該方法適合回答研究問題。",
+      "sources": [
+        "S02"
+      ],
+      "locator": "State the reasons for choosing your methodology"
+    },
+    {
+      "id": "C11",
+      "text": "系統或演算法的評估應交代驗證設定、資料與比較方法，讓性能主張有可判讀的依據。",
+      "sources": [
+        "S03"
+      ],
+      "locator": "Content"
+    },
+    {
+      "id": "C12",
+      "text": "可先按主要發現整理圖表，再以圖表與結論規劃結果段落的順序。",
+      "sources": [
+        "S03"
+      ],
+      "locator": "Create a logical narrative, organized into subsections"
+    },
+    {
+      "id": "C13",
+      "text": "一張研究圖應有清楚的主要訊息，以及直接支持該訊息的證據。",
+      "sources": [
+        "S05"
+      ],
+      "locator": "Criteria for Success"
+    },
+    {
+      "id": "C14",
+      "text": "圖的形式應配合要回答的問題，呈現分布、趨勢或關係時需要不同設計。",
+      "sources": [
+        "S05"
+      ],
+      "locator": "Choose figure designs that best communicate your message"
+    },
+    {
+      "id": "C15",
+      "text": "結果段應清楚呈現發現與直接後果，延伸推測與較廣的解釋放在討論。",
+      "sources": [
+        "S03"
+      ],
+      "locator": "Identify Your Purpose"
+    },
+    {
+      "id": "C16",
+      "text": "討論需要回到前言的大問題，說明結果如何與既有研究相互支持或產生差異。",
+      "sources": [
+        "S06"
+      ],
+      "locator": "Criteria for Success; Relate your results to existing results"
+    },
+    {
+      "id": "C17",
+      "text": "討論應說明研究範圍仍留下哪些問題，並把後續工作連回這些問題。",
+      "sources": [
+        "S06"
+      ],
+      "locator": "Tell how your study’s limitations leave open the big questions"
+    },
+    {
+      "id": "C18",
+      "text": "摘要可依一般背景、具體背景、缺口、主要工作、方法與結果、意義這六種功能組織。",
+      "sources": [
+        "S04"
+      ],
+      "locator": "Criteria for Success"
+    },
+    {
+      "id": "C19",
+      "text": "摘要應依讀者背景控制術語，說明工作的重要訊息；篇幅依目標期刊或會議規範。",
+      "sources": [
+        "S04"
+      ],
+      "locator": "Analyze Your Audience; Avoid jargon; Be concise",
+      "scope": "六種功能是組織參考，不是固定句數或統一字數規定。"
+    },
+    {
+      "id": "C20",
+      "text": "引用時要保留文獻原意，並讓讀者分辨他人的觀點與本文自己的評論。",
+      "sources": [
+        "S08"
+      ],
+      "locator": "誤解了文獻的原意；不同觀點的混淆"
+    },
+    {
+      "id": "C21",
+      "text": "研究主張需和實際測量、研究設計與資料支持的範圍相稱。",
+      "sources": [
+        "S09"
+      ],
+      "locator": "A2 主張與證據相稱；A4 推論範圍與層次"
+    },
+    {
+      "id": "C22",
+      "text": "觀察結果、機制解釋與實務建議應分開，未測量的機制只能作為待檢驗解釋。",
+      "sources": [
+        "S09"
+      ],
+      "locator": "A7 發現與解釋的區分"
+    },
+    {
+      "id": "C23",
+      "text": "修訂後應回查摘要、圖表與結論是否仍有同類問題，並留下修改理由。",
+      "sources": [
+        "S09"
+      ],
+      "locator": "修訂後回查全文"
+    },
+    {
+      "id": "C24",
+      "text": "每段以一項核心任務為中心，各句共同支持主旨，句間銜接需符合實際論理關係。",
+      "sources": [
+        "S09"
+      ],
+      "locator": "E1 主旨明確性；E2 段落統一性；E5 句間連貫與銜接"
+    },
+    {
+      "id": "C25",
+      "text": "前言的技術細節應足以理解問題與貢獻，更多細節可留給後續章節。",
+      "sources": [
+        "S01"
+      ],
+      "locator": "Give just enough technical detail"
+    }
   ],
-  "pages":[
-    {"id":"W01","slug":"research-question","title":"研究問題與貢獻","en":"Question & contribution","summary":"把一個大主題收斂成可回答的問題，再寫出對應的貢獻。","claims":["C01","C02","C25"],"related":["W02","W04","W06"],"paragraphs":["先把目前做出的研究結果寫成一句話，再往回問：這個結果回答什麼問題？誰會在意？研究缺口要指出既有做法在哪種條件下還無法滿足需求。","前言可從共同背景逐步收窄到問題、解法與貢獻。貢獻寫成可檢查的成果，例如提出一種壓縮策略並在固定條件下評估延遲與準確率。"],"example":{"label":"教學假設案例","before":"我們研究更好的人工智慧。","after":"在固定資料切分與同一台邊緣裝置上，壓縮模型能否降低推論延遲，同時維持分類準確率？","explanation":"後者指定了任務、比較條件與觀察指標，後面的方法與實驗才能接續回答。"},"practice":"用一句話寫下你的任務、尚未解決的條件，以及要觀察的結果。"},
-    {"id":"W02","slug":"related-work","title":"文獻回顧與研究缺口","en":"Related work","summary":"用問題與比較軸線組織文獻，讓自己的研究位置自然出現。","claims":["C03","C04","C05"],"related":["W01","W04","W08"],"paragraphs":["先建立比較矩陣，將研究放在相同欄位下閱讀，例如研究問題、方法、資料、評估條件與尚未回答的問題。再決定段落要比較哪個主題。","段落應說明研究之間的相同與不同，以及這些差異如何引出本文問題。真正引用文獻時，將矩陣中的描述回到原文核對。"],"example":{"label":"自行設計的寫作示例，非真實論文摘要","before":"A研究做了模型壓縮。B研究做了低功耗部署。","after":"既有研究分別處理壓縮與部署，但在本研究關注的裝置與資料條件下，兩者如何共同影響延遲仍待比較。","explanation":"這個句型展示比較邏輯，套用實稿時需換成真正讀過的研究與可支持的缺口。"},"practice":"選三篇真正相關的文獻，完成同一份比較矩陣，再依矩陣寫一段綜合討論。"},
-    {"id":"W03","slug":"paper-structure","title":"理工論文的章節任務","en":"Paper structure","summary":"用 IMRaD 理解論證分工，再配合資訊領域的章節名稱。","claims":["C06","C07","C08"],"related":["W01","W04","W05","W06"],"paragraphs":["Introduction 交代問題與貢獻；Methods 解釋做法；Results 呈現發現；Discussion 說明意義。這四項是閱讀與規劃時的功能地圖。","資訊論文可能使用 Method、Experimental Setup、Evaluation、Conclusion 等標題，實驗設定也可能獨立成節。先看目標會議或期刊的同類論文，再調整章節配置。"],"example":{"label":"章節規劃示例","before":"前言寫完後，直接貼一張準確率表。","after":"Introduction → Related Work → Method → Experimental Setup → Evaluation → Conclusion。","explanation":"這是其中一種配置；理論論文則可能需要問題定義、定理與證明等不同分工。"},"practice":"為自己的研究列出章節，每一節用一個問句描述讀者讀完後應得到的答案。"},
-    {"id":"W04","slug":"methods-experiments","title":"方法與可重做的實驗","en":"Methods & experiments","summary":"讓技術描述同時交代如何實作、為何如此設計，以及如何驗證。","claims":["C09","C10","C11"],"related":["W01","W03","W05"],"paragraphs":["方法節可依輸入、處理步驟、輸出與設計理由展開。只列模型名稱或流程，讀者仍不清楚它為什麼能回答研究問題。","為了落實可重做的目的，本 Wiki 將必要設定整理成資料版本與切分、前處理、參數、硬體、比較方法與重複方式。這是對來源原則的教學延伸，實際必填內容依研究而定。"],"example":{"label":"教學假設案例","before":"我們使用一個輕量模型，測試後效果很好。","after":"在同一資料切分、輸入解析度與裝置上，比較完整模型與壓縮模型；同時記錄準確率、單張影像延遲及記憶體用量。","explanation":"比較條件與指標一起交代，讀者才有辦法評估性能主張。"},"practice":"整理一張實驗設定表，請同領域同學指出還缺哪些足以改變結果的設定。"},
-    {"id":"W05","slug":"results-figures","title":"結果段與研究圖表","en":"Results & figures","summary":"用一項主要發現組織段落，讓圖表提供對應證據。","claims":["C12","C13","C14","C15"],"related":["W04","W06","W07"],"paragraphs":["先決定每張圖要支持哪一句結論，再選擇圖型、標籤與比較條件。圖與圖說讓讀者判斷證據，結果段則引導讀者看見重要發現。","一段結果可以從評估目的開始，接著描述資料與比較、報告具體發現，再銜接下一個問題。把尚未驗證的機制推測留到討論並明確區分。"],"example":{"label":"教學假設數據，非研究實測","before":"模型更快，效果一樣好。","after":"在此示例中，延遲由42 ms降至28 ms，準確率由91.2%變為91.0%；速度與準確率的變化需要一起呈現。","explanation":"延遲相對下降33.3%，準確率下降0.2個百分點；這些計算只描述示例表格。"},"practice":"拿一張自己的結果圖，用一句話寫出主訊息，再核對座標、單位、比較條件與數據是否支持它。"},
-    {"id":"W06","slug":"discussion","title":"討論與推論範圍","en":"Discussion","summary":"從觀察結果走向解釋，交代證據支持到哪裡。","claims":["C16","C17","C21","C22"],"related":["W01","W05","W07","W08"],"paragraphs":["討論把結果帶回前言的問題，說明它與既有研究一致、不同或互補的地方。讀者應看見研究帶來的理解，而非再讀一次結果數字。","觀察、可能解釋與後續建議需要分開寫。若只在一種裝置與資料條件下評估，結論先對應該條件，再說明下一步要驗證的情境。"],"example":{"label":"教學假設案例","before":"此方法能讓所有邊緣裝置加速。","after":"在本示例設定中觀察到延遲下降；它是否適用於其他硬體與資料，仍需要對應評估。","explanation":"將結論範圍與已做的評估對齊，後續工作也有了具體方向。"},"practice":"在一段討論中分別標出觀察、解釋與適用範圍，確認每一種句子有相應依據。"},
-    {"id":"W07","slug":"abstract-paragraphs","title":"摘要與段落組織","en":"Abstract & paragraphs","summary":"把整篇研究濃縮成可理解的摘要，再讓段落各自推進一個重點。","claims":["C18","C19","C24"],"related":["W01","W05","W06","W08"],"paragraphs":["摘要需要讓讀者理解研究背景、缺口、主要工作、方法與結果，以及意義。六種功能可合併成句，也可按目標投稿規範調整，不必機械地固定六句。","段落先指出主要訊息，再用證據與說明展開。英文修訂時先問每句是否有功能、句與句如何相接，再處理個別用字。"],"example":{"label":"英文段落自行改寫示例","before":"Our method is very good. It is fast. We have many experiments.","after":"We compare the compressed and full models on the same device. The example results show lower latency with a small decrease in accuracy.","explanation":"後者交代比較對象與觀察內容，避免只用沒有依據的形容詞。"},"practice":"將你的摘要句子標成背景、缺口、工作、結果或意義，檢查是否有重要功能缺席。"},
-    {"id":"W08","slug":"revision-citations","title":"引用核對與全文修訂","en":"Revision & citations","summary":"先檢查主張與證據，再回查全文的一致性。","claims":["C20","C21","C23"],"related":["W02","W05","W06","W07"],"paragraphs":["引用格式正確只是起點，還要確認原文支持正在寫的句子。把來源的觀察、作者自己的評論與本研究的推論清楚區分。","修訂可先看主張與證據，再看章節、段落與句子。改動主要結論後，回查摘要、圖表與結論的敘述是否同步，並記錄修改原因。"],"example":{"label":"自行設計的修訂任務","before":"只修正文法，保留超出資料範圍的結論。","after":"先把『所有裝置都更快』改成符合評估條件的敘述，再同步修改摘要與結論，最後修整文句。","explanation":"文字流暢不能取代證據；修訂順序應優先處理會改變研究意思的問題。"},"practice":"留下三筆修訂紀錄，每筆包含原句、證據位置、修改後句子與修改理由。"}
+  "pages": [
+    {
+      "id": "W01",
+      "slug": "research-question",
+      "title": "研究問題與貢獻",
+      "en": "Question & contribution",
+      "summary": "把一個大主題收斂成可回答的問題，再寫出對應的貢獻。",
+      "claims": [
+        "C01",
+        "C02",
+        "C25"
+      ],
+      "related": [
+        "W02",
+        "W04",
+        "W06"
+      ],
+      "paragraphs": [
+        "先把目前做出的研究結果寫成一句話，再往回問：這個結果回答什麼問題？誰會在意？研究缺口要指出既有做法在哪種條件下還無法滿足需求。",
+        "前言可從共同背景逐步收窄到問題、解法與貢獻。貢獻寫成可檢查的成果，例如提出一種壓縮策略並在固定條件下評估延遲與準確率。"
+      ],
+      "example": {
+        "label": "教學假設案例",
+        "before": "我們研究更好的人工智慧。",
+        "after": "在相同資料切分與同一台邊緣裝置上，壓縮模型能否降低延遲，且準確率下降不超過0.5個百分點？",
+        "explanation": "此問句明確指定比較條件、觀察指標與事先訂定的接受門檻；後面的方法與結果可直接回答它。0.5個百分點是本教學案例的部署需求。"
+      },
+      "practice": "用一句話寫下你的任務、尚未解決的條件，以及要觀察的結果。",
+      "practiceChecklist": [
+        "問句已指出任務、比較對象與固定條件。",
+        "指標與接受門檻在解讀結果前已說明。",
+        "每項貢獻都能對應一項做法或證據。"
+      ]
+    },
+    {
+      "id": "W02",
+      "slug": "related-work",
+      "title": "文獻回顧與研究缺口",
+      "en": "Related work",
+      "summary": "用問題與比較軸線組織文獻，讓自己的研究位置自然出現。",
+      "claims": [
+        "C03",
+        "C04",
+        "C05"
+      ],
+      "related": [
+        "W01",
+        "W04",
+        "W08"
+      ],
+      "paragraphs": [
+        "先建立比較矩陣，將研究放在相同欄位下閱讀，例如研究問題、方法、資料、評估條件與尚未回答的問題。再決定段落要比較哪個主題。",
+        "段落應說明研究之間的相同與不同，以及這些差異如何引出本文問題。真正引用文獻時，將矩陣中的描述回到原文核對。"
+      ],
+      "example": {
+        "label": "自行設計的寫作示例，非真實論文摘要",
+        "before": "A研究做了模型壓縮。B研究做了低功耗部署。",
+        "after": "既有研究分別處理壓縮與部署，但在本研究關注的裝置與資料條件下，兩者如何共同影響延遲仍待比較。",
+        "explanation": "這個句型展示比較邏輯，套用實稿時需換成真正讀過的研究與可支持的缺口。"
+      },
+      "practice": "選三篇真正相關的文獻，完成同一份比較矩陣，再依矩陣寫一段綜合討論。",
+      "practiceChecklist": [
+        "至少三篇文獻使用相同的比較欄位。",
+        "段落指出研究之間的關係及具體缺口。",
+        "每則文獻描述都可回到原文核對。"
+      ]
+    },
+    {
+      "id": "W03",
+      "slug": "paper-structure",
+      "title": "理工論文的章節任務",
+      "en": "Paper structure",
+      "summary": "用 IMRaD 理解論證分工，再配合資訊領域的章節名稱。",
+      "claims": [
+        "C06",
+        "C07",
+        "C08"
+      ],
+      "related": [
+        "W01",
+        "W04",
+        "W05",
+        "W06"
+      ],
+      "paragraphs": [
+        "Introduction 交代問題與貢獻；Methods 解釋做法；Results 呈現發現；Discussion 說明意義。這四項是閱讀與規劃時的功能地圖。",
+        "資訊論文可能使用 Method、Experimental Setup、Evaluation、Conclusion 等標題，實驗設定也可能獨立成節。先看目標會議或期刊的同類論文，再調整章節配置。"
+      ],
+      "example": {
+        "label": "章節規劃示例",
+        "before": "前言寫完後，直接貼一張準確率表。",
+        "after": "Introduction → Related Work → Method → Experimental Setup → Evaluation → Conclusion。",
+        "explanation": "這是其中一種配置；理論論文則可能需要問題定義、定理與證明等不同分工。"
+      },
+      "practice": "為自己的研究列出章節，每一節用一個問句描述讀者讀完後應得到的答案。",
+      "practiceChecklist": [
+        "每節都有清楚的讀者問題與章節任務。",
+        "研究問題、方法、結果與結論能相互對照。",
+        "章節名稱符合目標領域或投稿場合。"
+      ]
+    },
+    {
+      "id": "W04",
+      "slug": "methods-experiments",
+      "title": "方法與可重做的實驗",
+      "en": "Methods & experiments",
+      "summary": "讓技術描述同時交代如何實作、為何如此設計，以及如何驗證。",
+      "claims": [
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "related": [
+        "W01",
+        "W03",
+        "W05"
+      ],
+      "paragraphs": [
+        "方法節可依輸入、處理步驟、輸出與設計理由展開。只列模型名稱或流程，讀者仍不清楚它為什麼能回答研究問題。",
+        "為了落實可重做的目的，本 Wiki 將必要設定整理成資料版本與切分、前處理、參數、硬體、比較方法、重複量測與變異。本例另事前設定準確率下降不超過0.5個百分點的部署門檻；這些是依來源原則設計的教學欄位。"
+      ],
+      "example": {
+        "label": "教學假設案例",
+        "before": "我們使用一個輕量模型，測試後效果很好。",
+        "after": "在同一資料切分、輸入解析度與裝置上，比較完整模型與壓縮模型；同時記錄準確率、單張影像延遲及記憶體用量。",
+        "explanation": "比較條件與指標一起交代，讀者才有辦法評估性能主張。"
+      },
+      "practice": "整理一張實驗設定表，請同領域同學指出還缺哪些足以改變結果的設定。",
+      "practiceChecklist": [
+        "列出輸入、處理、輸出與設計理由。",
+        "交代資料切分、比較基準、硬體與重複量測方式。",
+        "指標、門檻及比較條件可以讓同學重做。"
+      ]
+    },
+    {
+      "id": "W05",
+      "slug": "results-figures",
+      "title": "結果段與研究圖表",
+      "en": "Results & figures",
+      "summary": "用一項主要發現組織段落，讓圖表提供對應證據。",
+      "claims": [
+        "C12",
+        "C13",
+        "C14",
+        "C15"
+      ],
+      "related": [
+        "W04",
+        "W06",
+        "W07"
+      ],
+      "paragraphs": [
+        "先決定每張圖要支持哪一句結論，再選擇圖型、標籤與比較條件。圖與圖說讓讀者判斷證據，結果段則引導讀者看見重要發現。",
+        "一段結果可以從評估目的開始，接著描述資料與比較、報告具體發現，再銜接下一個問題。把尚未驗證的機制推測留到討論並明確區分。"
+      ],
+      "example": {
+        "label": "教學假設數據，非研究實測",
+        "before": "模型更快，效果一樣好。",
+        "after": "在此示例中，延遲由42 ms降至28 ms，準確率由91.2%變為91.0%；速度與準確率的變化需要一起呈現。",
+        "explanation": "延遲相對下降33.3%，準確率下降0.2個百分點，後者在本例事前設定的0.5個百分點門檻內；計算應和表格同步。"
+      },
+      "practice": "拿一張自己的結果圖，用一句話寫出主訊息，再核對座標、單位、比較條件與數據是否支持它。",
+      "practiceChecklist": [
+        "每張圖用一句話表達主要發現。",
+        "座標、單位與比較條件標示完整。",
+        "內文數字、圖表與百分點計算一致。"
+      ]
+    },
+    {
+      "id": "W06",
+      "slug": "discussion",
+      "title": "討論與推論範圍",
+      "en": "Discussion",
+      "summary": "從觀察結果走向解釋，交代證據支持到哪裡。",
+      "claims": [
+        "C16",
+        "C17",
+        "C21",
+        "C22"
+      ],
+      "related": [
+        "W01",
+        "W05",
+        "W07",
+        "W08"
+      ],
+      "paragraphs": [
+        "討論把結果帶回前言的問題，說明它與既有研究一致、不同或互補的地方。讀者應看見研究帶來的理解，而非再讀一次結果數字。",
+        "觀察、可能解釋與後續建議需要分開寫。若只在一種裝置與資料條件下評估，結論先對應該條件，再說明下一步要驗證的情境。"
+      ],
+      "example": {
+        "label": "教學假設案例",
+        "before": "此方法能讓所有邊緣裝置加速。",
+        "after": "在本示例設定中觀察到延遲下降；它是否適用於其他硬體與資料，仍需要對應評估。",
+        "explanation": "將結論範圍與已做的評估對齊，後續工作也有了具體方向。"
+      },
+      "practice": "在一段討論中分別標出觀察、解釋與適用範圍，確認每一種句子有相應依據。",
+      "practiceChecklist": [
+        "分清觀察結果、可能解釋與研究意義。",
+        "回到前言的問題，並連結既有研究。",
+        "結論對應實際評估條件。"
+      ]
+    },
+    {
+      "id": "W07",
+      "slug": "abstract-paragraphs",
+      "title": "摘要與段落組織",
+      "en": "Abstract & paragraphs",
+      "summary": "把整篇研究濃縮成可理解的摘要，再讓段落各自推進一個重點。",
+      "claims": [
+        "C18",
+        "C19",
+        "C24"
+      ],
+      "related": [
+        "W01",
+        "W05",
+        "W06",
+        "W08"
+      ],
+      "paragraphs": [
+        "摘要需要讓讀者理解研究背景、缺口、主要工作、方法與結果，以及意義。六種功能可合併成句，也可按目標投稿規範調整，不必機械地固定六句。",
+        "段落先指出主要訊息，再用證據與說明展開。英文修訂時先問每句是否有功能、句與句如何相接，再處理個別用字。"
+      ],
+      "example": {
+        "label": "英文段落自行改寫示例",
+        "before": "Our method is very good. It is fast. We have many experiments.",
+        "after": "On the same device and data split, compression reduced latency from 42 to 28 ms. Accuracy decreased by 0.2 percentage points, within the predefined 0.5-point threshold.",
+        "explanation": "兩句共同完成「解讀同條件比較」的任務，並把數字連回事前門檻；與完整摘要、結果表使用同一組假設數據。"
+      },
+      "practice": "將你的摘要句子標成背景、缺口、工作、結果或意義，檢查是否有重要功能缺席。",
+      "practiceChecklist": [
+        "摘要包含問題、做法、具體結果與意義。",
+        "摘要數字與結果表一致。",
+        "每段以同一項任務組織，句子之間有清楚關係。"
+      ],
+      "workedExample": {
+        "title": "把寫作功能連成完整摘要",
+        "label": "本 Wiki 自行編寫的教學假設摘要",
+        "text": "邊緣裝置的即時影像分類需在有限運算資源下兼顧速度與準確率，而指定裝置上的壓縮取捨仍待比較。為評估一種模型壓縮策略，我們在相同資料切分與裝置上比較完整與壓縮模型，並事前設定準確率下降不超過0.5個百分點為部署門檻。在本教學假設數據中，延遲由42 ms降至28 ms，準確率由91.2%降至91.0%。此設定下的延遲下降33.3%，準確率減少0.2個百分點，符合本例門檻，呈現該部署條件下的速度與準確率取捨。",
+        "annotations": [
+          [
+            "第1句",
+            "背景、具體情境與缺口"
+          ],
+          [
+            "第2句",
+            "主要工作、比較方法與事前門檻"
+          ],
+          [
+            "第3句",
+            "具體觀察結果"
+          ],
+          [
+            "第4句",
+            "回答問題，說明本例的部署取捨"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "W08",
+      "slug": "revision-citations",
+      "title": "引用核對與全文修訂",
+      "en": "Revision & citations",
+      "summary": "先檢查主張與證據，再回查全文的一致性。",
+      "claims": [
+        "C20",
+        "C21",
+        "C23"
+      ],
+      "related": [
+        "W02",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      "paragraphs": [
+        "引用格式正確只是起點，還要確認原文支持正在寫的句子。把來源的觀察、作者自己的評論與本研究的推論清楚區分。",
+        "修訂可先看主張與證據，再看章節、段落與句子。改動主要結論後，回查摘要、圖表與結論的敘述是否同步，並記錄修改原因。"
+      ],
+      "example": {
+        "label": "自行設計的修訂任務",
+        "before": "只修正文法，保留超出資料範圍的結論。",
+        "after": "先把『所有裝置都更快』改成符合評估條件的敘述，再同步修改摘要與結論，最後修整文句。",
+        "explanation": "文字流暢不能取代證據；修訂順序應優先處理會改變研究意思的問題。"
+      },
+      "practice": "留下三筆修訂紀錄，每筆包含原句、證據位置、修改後句子與修改理由。",
+      "practiceChecklist": [
+        "引用句有對應的原文位置。",
+        "主要修改已同步到摘要、圖表與結論。",
+        "每筆修訂包含原句、依據、新句與理由。"
+      ]
+    }
+  ],
+  "learningGoals": [
+    {
+      "text": "將研究主題收斂成含比較條件與判定標準的問題",
+      "slides": [
+        3,
+        4
+      ]
+    },
+    {
+      "text": "把文獻、方法、實驗與結果接成同一條論證",
+      "slides": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "text": "寫出有證據支持的摘要與段落",
+      "slides": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "text": "依主張、結構與文字的順序修訂論文骨架",
+      "slides": [
+        16,
+        17,
+        18
+      ]
+    }
   ]
 }
