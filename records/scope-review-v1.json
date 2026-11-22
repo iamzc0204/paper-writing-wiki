@@ -1,0 +1,7 @@
+{
+  "version":"v1",
+  "items":[
+    {"id":"R01","source":"S04","candidate":"摘要通常約150英文字，最多250字。","question":"這是這份教學的篇幅建議，還是所有期刊與會議的統一規定？","status":"pending"},
+    {"id":"R02","source":"S08","candidate":"來源把會議論文列入灰色文獻，提醒過多引用可能降低可信度。","question":"這項文獻類型建議能否直接套用到資訊領域？","status":"pending"}
+  ]
+}

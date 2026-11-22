@@ -1,0 +1,95 @@
+{
+  "runAt": "2026-11-22T13:10:00.707Z",
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://mitcommlab.mit.edu/eecs/commkit/journal-article-introduction/",
+      "retrievedAt": "2026-11-22T13:09:55.688Z",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "characters": 7796,
+      "sha256": "1eb25a8ebf681137cf366a125f7da4e0af5068c00c1545d1cd9e33fe06648a51",
+      "anchorFound": true
+    },
+    {
+      "id": "S02",
+      "url": "https://mitcommlab.mit.edu/eecs/commkit/journal-article-methods-cs/",
+      "retrievedAt": "2026-11-22T13:09:56.924Z",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "characters": 9819,
+      "sha256": "9c55b564797fbad3dc598fd7739422b6f95cb5a95c1e1552988c403fd1f9155c",
+      "anchorFound": true
+    },
+    {
+      "id": "S03",
+      "url": "https://mitcommlab.mit.edu/eecs/commkit/journal-article-results/",
+      "retrievedAt": "2026-11-22T13:09:57.334Z",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "characters": 12997,
+      "sha256": "e1c2b44d4553466b9fd9806cbe15d78985df13ee616e066adbe5b19f332dd886",
+      "anchorFound": true
+    },
+    {
+      "id": "S04",
+      "url": "https://mitcommlab.mit.edu/eecs/commkit/abstract/",
+      "retrievedAt": "2026-11-22T13:09:57.742Z",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "characters": 5579,
+      "sha256": "741ae2cabb9d112118f1be3e6edaba09e577651906c3fdf08b9956c0a9ab8a53",
+      "anchorFound": true
+    },
+    {
+      "id": "S05",
+      "url": "https://mitcommlab.mit.edu/eecs/commkit/figure-design/",
+      "retrievedAt": "2026-11-22T13:09:58.154Z",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "characters": 11752,
+      "sha256": "c54188ebd1cf1395655e6219829eae83981e71501f7cf422cce488d50f6efaff",
+      "anchorFound": true
+    },
+    {
+      "id": "S06",
+      "url": "https://mitcommlab.mit.edu/eecs/commkit/journal-article-discussion/",
+      "retrievedAt": "2026-11-22T13:09:58.562Z",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "characters": 7488,
+      "sha256": "37208ce1cd7bdd5be0d2f50f8cfc02136ea90c2239767915a01cd28ca2bb3637",
+      "anchorFound": true
+    },
+    {
+      "id": "S07",
+      "url": "https://owl.purdue.edu/owl/research_and_citation/conducting_research/writing_a_literature_review.html",
+      "retrievedAt": "2026-11-22T13:09:58.971Z",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "characters": 13791,
+      "sha256": "febe51007a3bc291b814003de2a3c9118d0b7104da35eb7fb737ca946792f1d4",
+      "anchorFound": true
+    },
+    {
+      "id": "S08",
+      "url": "https://epaper.ntu.edu.tw/view.php?id=29609",
+      "retrievedAt": "2026-11-22T13:10:00.120Z",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "characters": 4348,
+      "sha256": "7323cf462ac9dde8d58d293d86befd1e396998ea6a41d3bf5b828d6fc0445258",
+      "anchorFound": true
+    },
+    {
+      "id": "S09",
+      "url": "https://homepage.ntu.edu.tw/~clhsieh/writing-checklist.html",
+      "retrievedAt": "2026-11-22T13:10:00.451Z",
+      "status": 200,
+      "contentType": "text/html",
+      "characters": 14883,
+      "sha256": "f636e538ff2c0d4185a31561cd2c5e344945eb564624dce27d861e9ca4f76eca",
+      "anchorFound": true
+    }
+  ]
+}

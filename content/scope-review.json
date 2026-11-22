@@ -1,0 +1,7 @@
+{
+  "version":"v2",
+  "items":[
+    {"id":"R01","source":"S04","candidate":"摘要通常約150英文字，最多250字。","question":"這是這份教學的篇幅建議，還是所有期刊與會議的統一規定？","status":"adapted","decision":"將篇幅保留為來源建議；教學規則改為依目標會議或期刊要求。六種摘要功能不改成固定六句。","evidence":"S04 的 Be concise 為本教學建議；S01 的 Structure Diagram 要求依目標 venue 與領域慣例調整。","affectedClaims":["C18","C19"],"reviewer":"本次對話中的 LLM 讀回原文後判讀"},
+    {"id":"R02","source":"S08","candidate":"來源把會議論文列入灰色文獻，提醒過多引用可能降低可信度。","question":"這項文獻類型建議能否直接套用到資訊領域？","status":"excluded","decision":"不把文獻類型評價編成資訊論文的通則。此來源僅採用查核原文與區分觀點的建議。","evidence":"S08 為一般中文引用教學；S01 的範例含 ICML、PLDI，S02 的範例含 CVPR，不能把會議形式直接當成排除依據。","affectedClaims":["C05","C20"],"reviewer":"本次對話中的 LLM 讀回原文後判讀"}
+  ]
+}

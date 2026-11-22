@@ -1,0 +1,1048 @@
+{
+  "createdAt": "2026-11-22T13:25:47.928Z",
+  "knowledgeSha256": "56bf73f65adceb0ad0ac7506dfc30e8ec25b44239f30f68dbd96130df6561131",
+  "method": "先以 Wiki 主題頁縮小範圍，再以中英關鍵字與中文字雙連詞匹配排序；每次最多8個主張。",
+  "queries": [
+    {
+      "id": "Q01",
+      "query": "研究問題 前言 貢獻",
+      "pages": [
+        "W01"
+      ],
+      "hits": [
+        {
+          "id": "C01",
+          "text": "前言需要交代問題、重要性、解法與貢獻，讓讀者知道這篇研究完成了什麼。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Criteria for Success",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 5
+        },
+        {
+          "id": "C25",
+          "text": "前言的技術細節應足以理解問題與貢獻，更多細節可留給後續章節。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Give just enough technical detail",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 5
+        },
+        {
+          "id": "C02",
+          "text": "研究缺口來自既有工作與本研究之間的具體差距，動機與貢獻應能對上。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Develop a story",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "query": "IMRaD 章節 方法 Results Evaluation",
+      "pages": [
+        "W03"
+      ],
+      "hits": [
+        {
+          "id": "C08",
+          "text": "Results 在系統或演算法論文可稱 Evaluation 或 Experiments；理論工作則可能呈現定理與證明。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Structure and Organization",
+          "pageId": "W03",
+          "pageSlug": "paper-structure",
+          "score": 4
+        },
+        {
+          "id": "C06",
+          "text": "資訊論文的方法節需要說明演算法、系統或模型，也要建立直覺並解釋技術選擇。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "The CS Methods Section",
+          "pageId": "W03",
+          "pageSlug": "paper-structure",
+          "score": 3
+        },
+        {
+          "id": "C07",
+          "text": "資訊論文可將實驗設定另列 Experiments，或放在 Results 開頭；章節配置依領域慣例調整。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "The CS Methods Section",
+          "pageId": "W03",
+          "pageSlug": "paper-structure",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "query": "研究問題 缺口 動機 條件",
+      "pages": [
+        "W01"
+      ],
+      "hits": [
+        {
+          "id": "C02",
+          "text": "研究缺口來自既有工作與本研究之間的具體差距，動機與貢獻應能對上。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Develop a story",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 5
+        },
+        {
+          "id": "C01",
+          "text": "前言需要交代問題、重要性、解法與貢獻，讓讀者知道這篇研究完成了什麼。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Criteria for Success",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 3
+        },
+        {
+          "id": "C25",
+          "text": "前言的技術細節應足以理解問題與貢獻，更多細節可留給後續章節。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Give just enough technical detail",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "query": "研究缺口 貢獻 比較",
+      "pages": [
+        "W01",
+        "W02"
+      ],
+      "hits": [
+        {
+          "id": "C02",
+          "text": "研究缺口來自既有工作與本研究之間的具體差距，動機與貢獻應能對上。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Develop a story",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 4
+        },
+        {
+          "id": "C03",
+          "text": "文獻回顧需要把研究放在同一段討論中，呈現彼此的連結，而非逐篇摘要的堆疊。",
+          "sources": [
+            "S07"
+          ],
+          "locator": "What are some strategies or tips I can use while writing my lit review?",
+          "pageId": "W02",
+          "pageSlug": "related-work",
+          "score": 4
+        },
+        {
+          "id": "C04",
+          "text": "文獻回顧可以依主題或方法組織，選擇能服務研究問題的比較順序。",
+          "sources": [
+            "S07"
+          ],
+          "locator": "How should I organize my lit review?",
+          "pageId": "W02",
+          "pageSlug": "related-work",
+          "score": 4
+        },
+        {
+          "id": "C05",
+          "text": "引用原始研究前應閱讀並確認原意；只讀到二手轉述時，要清楚交代轉引關係。",
+          "sources": [
+            "S08"
+          ],
+          "locator": "粗糙地引用二手文獻；誤解了文獻的原意",
+          "pageId": "W02",
+          "pageSlug": "related-work",
+          "score": 4
+        },
+        {
+          "id": "C01",
+          "text": "前言需要交代問題、重要性、解法與貢獻，讓讀者知道這篇研究完成了什麼。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Criteria for Success",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 2
+        },
+        {
+          "id": "C25",
+          "text": "前言的技術細節應足以理解問題與貢獻，更多細節可留給後續章節。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Give just enough technical detail",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "query": "文獻回顧 主題 方法 綜合",
+      "pages": [
+        "W02"
+      ],
+      "hits": [
+        {
+          "id": "C04",
+          "text": "文獻回顧可以依主題或方法組織，選擇能服務研究問題的比較順序。",
+          "sources": [
+            "S07"
+          ],
+          "locator": "How should I organize my lit review?",
+          "pageId": "W02",
+          "pageSlug": "related-work",
+          "score": 5
+        },
+        {
+          "id": "C03",
+          "text": "文獻回顧需要把研究放在同一段討論中，呈現彼此的連結，而非逐篇摘要的堆疊。",
+          "sources": [
+            "S07"
+          ],
+          "locator": "What are some strategies or tips I can use while writing my lit review?",
+          "pageId": "W02",
+          "pageSlug": "related-work",
+          "score": 3
+        },
+        {
+          "id": "C05",
+          "text": "引用原始研究前應閱讀並確認原意；只讀到二手轉述時，要清楚交代轉引關係。",
+          "sources": [
+            "S08"
+          ],
+          "locator": "粗糙地引用二手文獻；誤解了文獻的原意",
+          "pageId": "W02",
+          "pageSlug": "related-work",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "query": "資訊論文 章節 Experiments Evaluation 理論",
+      "pages": [
+        "W03"
+      ],
+      "hits": [
+        {
+          "id": "C08",
+          "text": "Results 在系統或演算法論文可稱 Evaluation 或 Experiments；理論工作則可能呈現定理與證明。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Structure and Organization",
+          "pageId": "W03",
+          "pageSlug": "paper-structure",
+          "score": 6
+        },
+        {
+          "id": "C07",
+          "text": "資訊論文可將實驗設定另列 Experiments，或放在 Results 開頭；章節配置依領域慣例調整。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "The CS Methods Section",
+          "pageId": "W03",
+          "pageSlug": "paper-structure",
+          "score": 5
+        },
+        {
+          "id": "C06",
+          "text": "資訊論文的方法節需要說明演算法、系統或模型，也要建立直覺並解釋技術選擇。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "The CS Methods Section",
+          "pageId": "W03",
+          "pageSlug": "paper-structure",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "query": "方法 技術 選擇 理由 直覺",
+      "pages": [
+        "W03",
+        "W04"
+      ],
+      "hits": [
+        {
+          "id": "C06",
+          "text": "資訊論文的方法節需要說明演算法、系統或模型，也要建立直覺並解釋技術選擇。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "The CS Methods Section",
+          "pageId": "W03",
+          "pageSlug": "paper-structure",
+          "score": 4
+        },
+        {
+          "id": "C09",
+          "text": "方法描述應保留會影響結論的必要細節，讓讀者重做或確認結果；標準方法的改動需明說。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "Provide minimal, essential detail",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 2
+        },
+        {
+          "id": "C10",
+          "text": "方法節除了描述如何做，也應解釋為何該方法適合回答研究問題。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "State the reasons for choosing your methodology",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 2
+        },
+        {
+          "id": "C11",
+          "text": "系統或演算法的評估應交代驗證設定、資料與比較方法，讓性能主張有可判讀的依據。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Content",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 2
+        },
+        {
+          "id": "C07",
+          "text": "資訊論文可將實驗設定另列 Experiments，或放在 Results 開頭；章節配置依領域慣例調整。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "The CS Methods Section",
+          "pageId": "W03",
+          "pageSlug": "paper-structure",
+          "score": 0
+        },
+        {
+          "id": "C08",
+          "text": "Results 在系統或演算法論文可稱 Evaluation 或 Experiments；理論工作則可能呈現定理與證明。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Structure and Organization",
+          "pageId": "W03",
+          "pageSlug": "paper-structure",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "query": "實驗 設定 資料 比較 重做",
+      "pages": [
+        "W04"
+      ],
+      "hits": [
+        {
+          "id": "C11",
+          "text": "系統或演算法的評估應交代驗證設定、資料與比較方法，讓性能主張有可判讀的依據。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Content",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 5
+        },
+        {
+          "id": "C09",
+          "text": "方法描述應保留會影響結論的必要細節，讓讀者重做或確認結果；標準方法的改動需明說。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "Provide minimal, essential detail",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 2
+        },
+        {
+          "id": "C10",
+          "text": "方法節除了描述如何做，也應解釋為何該方法適合回答研究問題。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "State the reasons for choosing your methodology",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "query": "比較 數據 設定 範圍 主張",
+      "pages": [
+        "W04",
+        "W06"
+      ],
+      "hits": [
+        {
+          "id": "C11",
+          "text": "系統或演算法的評估應交代驗證設定、資料與比較方法，讓性能主張有可判讀的依據。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Content",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 3
+        },
+        {
+          "id": "C21",
+          "text": "研究主張需和實際測量、研究設計與資料支持的範圍相稱。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "A2 主張與證據相稱；A4 推論範圍與層次",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 2
+        },
+        {
+          "id": "C16",
+          "text": "討論需要回到前言的大問題，說明結果如何與既有研究相互支持或產生差異。",
+          "sources": [
+            "S06"
+          ],
+          "locator": "Criteria for Success; Relate your results to existing results",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 1
+        },
+        {
+          "id": "C17",
+          "text": "討論應說明研究範圍仍留下哪些問題，並把後續工作連回這些問題。",
+          "sources": [
+            "S06"
+          ],
+          "locator": "Tell how your study’s limitations leave open the big questions",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 1
+        },
+        {
+          "id": "C22",
+          "text": "觀察結果、機制解釋與實務建議應分開，未測量的機制只能作為待檢驗解釋。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "A7 發現與解釋的區分",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 1
+        },
+        {
+          "id": "C09",
+          "text": "方法描述應保留會影響結論的必要細節，讓讀者重做或確認結果；標準方法的改動需明說。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "Provide minimal, essential detail",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 0
+        },
+        {
+          "id": "C10",
+          "text": "方法節除了描述如何做，也應解釋為何該方法適合回答研究問題。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "State the reasons for choosing your methodology",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "query": "圖表 主要訊息 證據 圖型",
+      "pages": [
+        "W05"
+      ],
+      "hits": [
+        {
+          "id": "C13",
+          "text": "一張研究圖應有清楚的主要訊息，以及直接支持該訊息的證據。",
+          "sources": [
+            "S05"
+          ],
+          "locator": "Criteria for Success",
+          "pageId": "W05",
+          "pageSlug": "results-figures",
+          "score": 5
+        },
+        {
+          "id": "C12",
+          "text": "可先按主要發現整理圖表，再以圖表與結論規劃結果段落的順序。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Create a logical narrative, organized into subsections",
+          "pageId": "W05",
+          "pageSlug": "results-figures",
+          "score": 3
+        },
+        {
+          "id": "C14",
+          "text": "圖的形式應配合要回答的問題，呈現分布、趨勢或關係時需要不同設計。",
+          "sources": [
+            "S05"
+          ],
+          "locator": "Choose figure designs that best communicate your message",
+          "pageId": "W05",
+          "pageSlug": "results-figures",
+          "score": 3
+        },
+        {
+          "id": "C15",
+          "text": "結果段應清楚呈現發現與直接後果，延伸推測與較廣的解釋放在討論。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Identify Your Purpose",
+          "pageId": "W05",
+          "pageSlug": "results-figures",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "query": "結果 段落 發現 推測 圖表",
+      "pages": [
+        "W05"
+      ],
+      "hits": [
+        {
+          "id": "C15",
+          "text": "結果段應清楚呈現發現與直接後果，延伸推測與較廣的解釋放在討論。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Identify Your Purpose",
+          "pageId": "W05",
+          "pageSlug": "results-figures",
+          "score": 5
+        },
+        {
+          "id": "C12",
+          "text": "可先按主要發現整理圖表，再以圖表與結論規劃結果段落的順序。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Create a logical narrative, organized into subsections",
+          "pageId": "W05",
+          "pageSlug": "results-figures",
+          "score": 4
+        },
+        {
+          "id": "C13",
+          "text": "一張研究圖應有清楚的主要訊息，以及直接支持該訊息的證據。",
+          "sources": [
+            "S05"
+          ],
+          "locator": "Criteria for Success",
+          "pageId": "W05",
+          "pageSlug": "results-figures",
+          "score": 4
+        },
+        {
+          "id": "C14",
+          "text": "圖的形式應配合要回答的問題，呈現分布、趨勢或關係時需要不同設計。",
+          "sources": [
+            "S05"
+          ],
+          "locator": "Choose figure designs that best communicate your message",
+          "pageId": "W05",
+          "pageSlug": "results-figures",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "query": "討論 觀察 解釋 適用範圍",
+      "pages": [
+        "W06"
+      ],
+      "hits": [
+        {
+          "id": "C16",
+          "text": "討論需要回到前言的大問題，說明結果如何與既有研究相互支持或產生差異。",
+          "sources": [
+            "S06"
+          ],
+          "locator": "Criteria for Success; Relate your results to existing results",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 4
+        },
+        {
+          "id": "C17",
+          "text": "討論應說明研究範圍仍留下哪些問題，並把後續工作連回這些問題。",
+          "sources": [
+            "S06"
+          ],
+          "locator": "Tell how your study’s limitations leave open the big questions",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 4
+        },
+        {
+          "id": "C21",
+          "text": "研究主張需和實際測量、研究設計與資料支持的範圍相稱。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "A2 主張與證據相稱；A4 推論範圍與層次",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 4
+        },
+        {
+          "id": "C22",
+          "text": "觀察結果、機制解釋與實務建議應分開，未測量的機制只能作為待檢驗解釋。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "A7 發現與解釋的區分",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "query": "摘要 背景 缺口 結果 術語",
+      "pages": [
+        "W07"
+      ],
+      "hits": [
+        {
+          "id": "C18",
+          "text": "摘要可依一般背景、具體背景、缺口、主要工作、方法與結果、意義這六種功能組織。",
+          "sources": [
+            "S04"
+          ],
+          "locator": "Criteria for Success",
+          "pageId": "W07",
+          "pageSlug": "abstract-paragraphs",
+          "score": 4
+        },
+        {
+          "id": "C19",
+          "text": "摘要應依讀者背景控制術語，說明工作的重要訊息；篇幅依目標期刊或會議規範。",
+          "sources": [
+            "S04"
+          ],
+          "locator": "Analyze Your Audience; Avoid jargon; Be concise",
+          "scope": "六種功能是組織參考，不是固定句數或統一字數規定。",
+          "pageId": "W07",
+          "pageSlug": "abstract-paragraphs",
+          "score": 3
+        },
+        {
+          "id": "C24",
+          "text": "段落需要主題句與連接比較關係的表達，幫助讀者看懂文獻之間的論證。",
+          "sources": [
+            "S07"
+          ],
+          "locator": "What are the parts of a lit review?",
+          "pageId": "W07",
+          "pageSlug": "abstract-paragraphs",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "query": "段落 主題句 連接 比較",
+      "pages": [
+        "W07"
+      ],
+      "hits": [
+        {
+          "id": "C24",
+          "text": "段落需要主題句與連接比較關係的表達，幫助讀者看懂文獻之間的論證。",
+          "sources": [
+            "S07"
+          ],
+          "locator": "What are the parts of a lit review?",
+          "pageId": "W07",
+          "pageSlug": "abstract-paragraphs",
+          "score": 5
+        },
+        {
+          "id": "C18",
+          "text": "摘要可依一般背景、具體背景、缺口、主要工作、方法與結果、意義這六種功能組織。",
+          "sources": [
+            "S04"
+          ],
+          "locator": "Criteria for Success",
+          "pageId": "W07",
+          "pageSlug": "abstract-paragraphs",
+          "score": 1
+        },
+        {
+          "id": "C19",
+          "text": "摘要應依讀者背景控制術語，說明工作的重要訊息；篇幅依目標期刊或會議規範。",
+          "sources": [
+            "S04"
+          ],
+          "locator": "Analyze Your Audience; Avoid jargon; Be concise",
+          "scope": "六種功能是組織參考，不是固定句數或統一字數規定。",
+          "pageId": "W07",
+          "pageSlug": "abstract-paragraphs",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "query": "引用 文獻 原意 轉引",
+      "pages": [
+        "W02",
+        "W08"
+      ],
+      "hits": [
+        {
+          "id": "C05",
+          "text": "引用原始研究前應閱讀並確認原意；只讀到二手轉述時，要清楚交代轉引關係。",
+          "sources": [
+            "S08"
+          ],
+          "locator": "粗糙地引用二手文獻；誤解了文獻的原意",
+          "pageId": "W02",
+          "pageSlug": "related-work",
+          "score": 4
+        },
+        {
+          "id": "C20",
+          "text": "引用時要保留文獻原意，並讓讀者分辨他人的觀點與本文自己的評論。",
+          "sources": [
+            "S08"
+          ],
+          "locator": "誤解了文獻的原意；不同觀點的混淆",
+          "pageId": "W08",
+          "pageSlug": "revision-citations",
+          "score": 3
+        },
+        {
+          "id": "C03",
+          "text": "文獻回顧需要把研究放在同一段討論中，呈現彼此的連結，而非逐篇摘要的堆疊。",
+          "sources": [
+            "S07"
+          ],
+          "locator": "What are some strategies or tips I can use while writing my lit review?",
+          "pageId": "W02",
+          "pageSlug": "related-work",
+          "score": 1
+        },
+        {
+          "id": "C04",
+          "text": "文獻回顧可以依主題或方法組織，選擇能服務研究問題的比較順序。",
+          "sources": [
+            "S07"
+          ],
+          "locator": "How should I organize my lit review?",
+          "pageId": "W02",
+          "pageSlug": "related-work",
+          "score": 1
+        },
+        {
+          "id": "C23",
+          "text": "修訂後應回查摘要、圖表與結論是否仍有同類問題，並留下修改理由。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "修訂後回查全文",
+          "pageId": "W08",
+          "pageSlug": "revision-citations",
+          "score": 1
+        },
+        {
+          "id": "C21",
+          "text": "研究主張需和實際測量、研究設計與資料支持的範圍相稱。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "A2 主張與證據相稱；A4 推論範圍與層次",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "query": "修訂 證據 摘要 圖表 結論",
+      "pages": [
+        "W08"
+      ],
+      "hits": [
+        {
+          "id": "C23",
+          "text": "修訂後應回查摘要、圖表與結論是否仍有同類問題，並留下修改理由。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "修訂後回查全文",
+          "pageId": "W08",
+          "pageSlug": "revision-citations",
+          "score": 5
+        },
+        {
+          "id": "C20",
+          "text": "引用時要保留文獻原意，並讓讀者分辨他人的觀點與本文自己的評論。",
+          "sources": [
+            "S08"
+          ],
+          "locator": "誤解了文獻的原意；不同觀點的混淆",
+          "pageId": "W08",
+          "pageSlug": "revision-citations",
+          "score": 2
+        },
+        {
+          "id": "C21",
+          "text": "研究主張需和實際測量、研究設計與資料支持的範圍相稱。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "A2 主張與證據相稱；A4 推論範圍與層次",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "query": "摘要 篇幅 規範 主張 推論 範圍",
+      "pages": [
+        "W06",
+        "W07"
+      ],
+      "hits": [
+        {
+          "id": "C19",
+          "text": "摘要應依讀者背景控制術語，說明工作的重要訊息；篇幅依目標期刊或會議規範。",
+          "sources": [
+            "S04"
+          ],
+          "locator": "Analyze Your Audience; Avoid jargon; Be concise",
+          "scope": "六種功能是組織參考，不是固定句數或統一字數規定。",
+          "pageId": "W07",
+          "pageSlug": "abstract-paragraphs",
+          "score": 3
+        },
+        {
+          "id": "C21",
+          "text": "研究主張需和實際測量、研究設計與資料支持的範圍相稱。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "A2 主張與證據相稱；A4 推論範圍與層次",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 3
+        },
+        {
+          "id": "C16",
+          "text": "討論需要回到前言的大問題，說明結果如何與既有研究相互支持或產生差異。",
+          "sources": [
+            "S06"
+          ],
+          "locator": "Criteria for Success; Relate your results to existing results",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 2
+        },
+        {
+          "id": "C17",
+          "text": "討論應說明研究範圍仍留下哪些問題，並把後續工作連回這些問題。",
+          "sources": [
+            "S06"
+          ],
+          "locator": "Tell how your study’s limitations leave open the big questions",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 2
+        },
+        {
+          "id": "C22",
+          "text": "觀察結果、機制解釋與實務建議應分開，未測量的機制只能作為待檢驗解釋。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "A7 發現與解釋的區分",
+          "pageId": "W06",
+          "pageSlug": "discussion",
+          "score": 2
+        },
+        {
+          "id": "C18",
+          "text": "摘要可依一般背景、具體背景、缺口、主要工作、方法與結果、意義這六種功能組織。",
+          "sources": [
+            "S04"
+          ],
+          "locator": "Criteria for Success",
+          "pageId": "W07",
+          "pageSlug": "abstract-paragraphs",
+          "score": 1
+        },
+        {
+          "id": "C24",
+          "text": "段落需要主題句與連接比較關係的表達，幫助讀者看懂文獻之間的論證。",
+          "sources": [
+            "S07"
+          ],
+          "locator": "What are the parts of a lit review?",
+          "pageId": "W07",
+          "pageSlug": "abstract-paragraphs",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Q18",
+      "query": "修訂 研究問題 實驗 結論",
+      "pages": [
+        "W01",
+        "W04",
+        "W08"
+      ],
+      "hits": [
+        {
+          "id": "C10",
+          "text": "方法節除了描述如何做，也應解釋為何該方法適合回答研究問題。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "State the reasons for choosing your methodology",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 4
+        },
+        {
+          "id": "C01",
+          "text": "前言需要交代問題、重要性、解法與貢獻，讓讀者知道這篇研究完成了什麼。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Criteria for Success",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 3
+        },
+        {
+          "id": "C02",
+          "text": "研究缺口來自既有工作與本研究之間的具體差距，動機與貢獻應能對上。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Develop a story",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 3
+        },
+        {
+          "id": "C23",
+          "text": "修訂後應回查摘要、圖表與結論是否仍有同類問題，並留下修改理由。",
+          "sources": [
+            "S09"
+          ],
+          "locator": "修訂後回查全文",
+          "pageId": "W08",
+          "pageSlug": "revision-citations",
+          "score": 3
+        },
+        {
+          "id": "C25",
+          "text": "前言的技術細節應足以理解問題與貢獻，更多細節可留給後續章節。",
+          "sources": [
+            "S01"
+          ],
+          "locator": "Give just enough technical detail",
+          "pageId": "W01",
+          "pageSlug": "research-question",
+          "score": 3
+        },
+        {
+          "id": "C09",
+          "text": "方法描述應保留會影響結論的必要細節，讓讀者重做或確認結果；標準方法的改動需明說。",
+          "sources": [
+            "S02"
+          ],
+          "locator": "Provide minimal, essential detail",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 2
+        },
+        {
+          "id": "C11",
+          "text": "系統或演算法的評估應交代驗證設定、資料與比較方法，讓性能主張有可判讀的依據。",
+          "sources": [
+            "S03"
+          ],
+          "locator": "Content",
+          "pageId": "W04",
+          "pageSlug": "methods-experiments",
+          "score": 1
+        },
+        {
+          "id": "C20",
+          "text": "引用時要保留文獻原意，並讓讀者分辨他人的觀點與本文自己的評論。",
+          "sources": [
+            "S08"
+          ],
+          "locator": "誤解了文獻的原意；不同觀點的混淆",
+          "pageId": "W08",
+          "pageSlug": "revision-citations",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

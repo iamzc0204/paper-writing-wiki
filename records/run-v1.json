@@ -1,0 +1,71 @@
+{
+  "id": "v1-2026-11-22T13-15-52-462Z",
+  "version": "v1",
+  "startedAt": "2026-11-22T13:15:52.463Z",
+  "steps": [
+    {
+      "node": "ingest",
+      "startedAt": "2026-11-22T13:15:52.463Z",
+      "finishedAt": "2026-11-22T13:15:52.463Z",
+      "status": "passed",
+      "action": "核對本次已取得的來源紀錄，不重做網路請求",
+      "success": 9
+    },
+    {
+      "node": "wiki-index",
+      "startedAt": "2026-11-22T13:15:52.463Z",
+      "finishedAt": "2026-11-22T13:15:52.464Z",
+      "status": "passed",
+      "pages": 8,
+      "claims": 25,
+      "sha256": "56bf73f65adceb0ad0ac7506dfc30e8ec25b44239f30f68dbd96130df6561131"
+    },
+    {
+      "node": "wiki-query",
+      "startedAt": "2026-11-22T13:15:52.464Z",
+      "finishedAt": "2026-11-22T13:15:52.475Z",
+      "status": "passed",
+      "queries": 18
+    },
+    {
+      "node": "slide-plan",
+      "startedAt": "2026-11-22T13:15:52.475Z",
+      "finishedAt": "2026-11-22T13:15:52.476Z",
+      "status": "passed",
+      "action": "讀取本次 LLM 依 Wiki 查詢編寫的教學分鏡",
+      "slides": 18
+    },
+    {
+      "node": "late-content-check",
+      "startedAt": "2026-11-22T13:15:52.477Z",
+      "finishedAt": "2026-11-22T13:15:52.477Z",
+      "status": "blocked",
+      "issues": [
+        {
+          "node": "source-scope",
+          "code": "SCOPE_PENDING",
+          "id": "R01",
+          "source": "S04",
+          "message": "這是這份教學的篇幅建議，還是所有期刊與會議的統一規定？"
+        },
+        {
+          "node": "source-scope",
+          "code": "SCOPE_PENDING",
+          "id": "R02",
+          "source": "S08",
+          "message": "這項文獻類型建議能否直接套用到資訊領域？"
+        }
+      ],
+      "counts": {
+        "sources": 9,
+        "pages": 8,
+        "claims": 25,
+        "queries": 18,
+        "slides": 18,
+        "slideClaimLinks": 36
+      }
+    }
+  ],
+  "status": "blocked",
+  "finishedAt": "2026-11-22T13:15:52.477Z"
+}

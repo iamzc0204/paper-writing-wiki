@@ -1,0 +1,6 @@
+node_modules/
+raw/
+site/
+_work/
+.env*
+*.log

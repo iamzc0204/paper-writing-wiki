@@ -1,0 +1,15 @@
+{
+  "name": "paper-writing-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "ingest": "node scripts/ingest.mjs",
+    "query": "node scripts/query.mjs",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "run": "node scripts/run.mjs"
+  }
+}
