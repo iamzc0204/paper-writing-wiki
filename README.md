@@ -6,6 +6,7 @@
 - [18 頁教學 HTML 簡報](https://iamzc0204.github.io/paper-writing-wiki/slides/)
 - [loop / graph、執行結果與反思](https://iamzc0204.github.io/paper-writing-wiki/workflow/)
 - [9 份來源與 ingest 紀錄](https://iamzc0204.github.io/paper-writing-wiki/sources/)
+- [六項繳交內容 PDF](docs/submission.pdf)
 
 ## 成果
 
@@ -71,3 +72,7 @@ npm run run -- v2
 例如新增「演算法偽碼」教學：先依 `AGENTS.md` 取得適用的原始教學，完成範圍判讀，新增來源與 C 主張、W 概念頁及相關連結，再新增 Q 查詢與投影片。通過對應檢查後，共用生成器會產生新概念頁、目錄與來源面板，沿用既有字體、版面與互動。
 
 網站以 GitHub Actions 編譯並發布至 GitHub Pages。程式與自行編寫的示例可在此儲存庫檢閱；教材引用及改寫依各來源授權，MIT CommKit 部分標示 CC BY-NC 4.0，詳見網站來源頁。
+
+[公開網址檢查紀錄](records/publication.json)：13 個 HTML 頁面及其資源，共 39 個網址全部回應 HTTP 200。
+
+![教學 HTML 簡報成果](docs/slides-preview.jpg)

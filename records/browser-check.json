@@ -2,6 +2,7 @@
   "date": "2026-11-22",
   "environment": "ChatGPT in-app browser，實際操作本機靜態網站",
   "localUrl": "http://127.0.0.1:5175/",
+  "publishedUrl": "https://iamzc0204.github.io/paper-writing-wiki/",
   "status": "passed",
   "checks": [
     {"item": "桌面 18 頁內容範圍", "result": "18/18 通過；內容均位於頁尾之前，頁面沒有水平溢出"},
@@ -10,6 +11,7 @@
     {"item": "兩題互動測驗", "result": "錯誤選項顯示再想一想；兩題正確選項均顯示答對了及說明"},
     {"item": "390×844 手機版簡報", "result": "18/18 無水平溢出，長頁依內容延伸；測驗按鈕與回饋正常顯示"},
     {"item": "Wiki 搜尋", "result": "IMRaD 篩選為 1 個主題；不存在的關鍵字顯示空結果；摘要可連到對應概念頁"},
-    {"item": "手機版 Wiki、流程與首頁", "result": "實際導覽後，文件捲動寬度皆等於可視寬度，沒有整頁水平溢出"}
+    {"item": "手機版 Wiki、流程與首頁", "result": "實際導覽後，文件捲動寬度皆等於可視寬度，沒有整頁水平溢出"},
+    {"item": "公開 GitHub Pages", "result": "首頁、簡報下一頁與目錄可操作；第 2 頁來源面板可連至 Wiki C07 主張；流程頁顯示 9 份來源、8 頁 Wiki、18 次查詢與 36 筆主張對應"}
   ]
 }
